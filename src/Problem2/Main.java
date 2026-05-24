@@ -13,6 +13,12 @@ package Problem2;
 public class Main {
     public static void main(String[] args) {
 
+        ListNode list1 = new ListNode(1, new ListNode(8));
+        ListNode list2 = new ListNode(0);
+        System.out.println(list1);
+        System.out.println(list2);
+
+       System.out.println(Try1.addTwoNumbers(list1,list2));
     }
 
     public ListNode addTwoNumbersPlaceHolder(ListNode l1, ListNode l2) {
