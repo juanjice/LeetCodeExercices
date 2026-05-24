@@ -1,4 +1,4 @@
-package Problem3;
+package Problem0003;
 
 import java.util.HashSet;
 import java.util.List;

@@ -1,4 +1,4 @@
-package Problem7;
+package Problem0007;
 
 public class Solution {
     public static int reverse(int x) {

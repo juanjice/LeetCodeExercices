@@ -1,4 +1,4 @@
-package Problem2;
+package Problem0002;
 
 public class Try1 {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {

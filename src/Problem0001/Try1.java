@@ -1,6 +1,4 @@
-package Problem1;
-
-import java.util.Arrays;
+package Problem0001;
 
 public class Try1 {
     public static int[] twoSum(int[] nums, int target) {

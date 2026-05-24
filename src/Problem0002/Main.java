@@ -1,4 +1,4 @@
-package Problem2;
+package Problem0002;
 
 /**
  * Definition for singly-linked list.
