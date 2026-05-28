@@ -1,10 +1,7 @@
-package theory.dataStructuresJava.UsingArrays.RandomNumbers;
+package Theory01.Chapter003FundamentalStructures.UsingArrays.RandomNumbers;
 
 import java.util.Arrays;
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
-
-import static theory.dataStructuresJava.UsingArrays.SortingArray.Main.insertionSort;
 
 public class Main {
     public static void main(String[] args){

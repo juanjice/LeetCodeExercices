@@ -1,4 +1,4 @@
-package theory.dataStructuresJava.UsingArrays.SortingArray;
+package Theory01.Chapter003FundamentalStructures.UsingArrays.SortingArray;
 
 //InsertionSort
 public class Main {

@@ -1,4 +1,4 @@
-package theory.AlgorithmAnalysis.experimentalStudies;
+package Theory01.Chapter004AlgorithmAnalysis.experimentalStudies;
 
 import java.util.Arrays;
 

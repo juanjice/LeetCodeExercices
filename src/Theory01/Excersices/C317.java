@@ -1,4 +1,4 @@
-package theory.Excersices;
+package Theory01.Excersices;
 
 import java.util.HashSet;
 

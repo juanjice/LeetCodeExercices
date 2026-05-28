@@ -1,4 +1,4 @@
-package theory.dataStructuresJava.UsingArrays.SimpleCipher;
+package Theory01.Chapter003FundamentalStructures.UsingArrays.SimpleCipher;
 
 import java.util.Arrays;
 

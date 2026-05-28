@@ -1,4 +1,4 @@
-package theory.dataStructuresJava.singleLinkedList;
+package Theory01.Chapter003FundamentalStructures.singleLinkedList;
 
 public class SingleLinkedList<T> {
     private int size=0;

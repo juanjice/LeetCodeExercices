@@ -1,4 +1,4 @@
-package theory.dataStructuresJava.UsingArrays.GamesEntries;
+package Theory01.Chapter003FundamentalStructures.UsingArrays.GamesEntries;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package theory.dataStructuresJava.singleLinkedList;
+package Theory01.Chapter003FundamentalStructures.singleLinkedList;
 
 public class Main {
     public static void main(String[] args){
