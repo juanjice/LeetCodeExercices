@@ -6,6 +6,7 @@ public class Try2 {
     public static List<List<Integer>> threeSum(int[] nums) {
         Set<List<Integer>> result = new HashSet<>(); // O(1)
         Map<Integer,List<List<Integer>>> listRest = new HashMap<>();
+        //paso 1
         for(int i=0;i< nums.length;i++){
             for(int j=i+1;j< nums.length;j++){
                 int rest= -1*(nums[i]+nums[j]);
@@ -25,6 +26,7 @@ public class Try2 {
                 }
             }
         }
+        //paso 2
 //        for (int i=0;i<nums.length ;i++) {
 //            if (listRest.containsKey(nums[i])) {
 //                for (List<Integer> e : listRest.get(nums[i])) {
@@ -40,3 +42,5 @@ public class Try2 {
     }
 }
 //podemos aprovechar el recurso que utilizan los hasmaps de que acceder a un valor solo cuesta O(1)
+//En realidad hacer esto, hace que del paso 1 salgan un has de n^2 elementos, que estoy iterando y por dentro
+//hay una iteracion que en el peor de los casos puede ser o(n^2), lo cual combertiria el algoritmo en un O(n)+O(n^3) = O(n^3)
