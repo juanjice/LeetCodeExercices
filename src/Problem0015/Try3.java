@@ -3,7 +3,7 @@ package Problem0015;
 import java.util.*;
 
 public class Try3 {
-    public List<List<Integer>> threeSum(int[] nums) {
+    public static List<List<Integer>> threeSum(int[] nums) {
         Map<Integer, Set<Integer>> initialMap= new HashMap<>();
         Set<List<Integer>> result = new HashSet<>();
         int length=nums.length;
@@ -13,6 +13,10 @@ public class Try3 {
             }else{
                 initialMap.put(nums[i], new LinkedHashSet<>(Set.of(i)));
             }
+        }
+        if(initialMap.size()==1){
+            if(initialMap.containsKey(0)) return List.of(List.of(0,0,0));
+            return List.of();
         }
         for(int i=0;i<length;i++){
             for(int j=i+1;j<length;j++){
@@ -36,8 +40,9 @@ public class Try3 {
             }
         }
 
-        return List.copyOf(result);
+        return new ArrayList<>(result);
     }
 }
 //Esto si es O(n^2), leet code esta castigando las constantes, en la practica la asintota si esta bien para valores grande sde N, el algoritmoe sta
 //bien planteado en si, falta pulir recursos que estoy utilizzando sobre todo los recursos de la biblioteca Collections
+//Las lineas 17 a la 20 evitan el caso especial redundante del 0 , pasamos leet code, pero tiempo promedio muy alejado de la solucion optima
