@@ -14,6 +14,9 @@ public class Main {
         System.out.println(Arrays.toString(nums));
         Arrays.sort(nums);
         System.out.println(Arrays.toString(nums));
+        
+
 
     }
+
 }
