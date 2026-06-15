@@ -42,5 +42,5 @@ public class Try2 {
     }
 }
 //podemos aprovechar el recurso que utilizan los hasmaps de que acceder a un valor solo cuesta O(1)
-//En realidad hacer esto, hace que del paso 1 salgan un has de n^2 elementos, que estoy iterando y por dentro
-//hay una iteracion que en el peor de los casos puede ser o(n^2), lo cual combertiria el algoritmo en un O(n)+O(n^3) = O(n^3)
+//En realidad hacer esto, hace que del paso 1 salgan un hash de n^2 elementos, que estoy iterando y por dentro
+//hay una iteracion que en el peor de los casos puede ser o(n^2), lo cual convertiria el algoritmo en un O(n)+O(n^3) = O(n^3)
