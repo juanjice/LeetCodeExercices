@@ -121,7 +121,7 @@ public class DisjointThreeSets {
      to solve the three-way set disjointness problem in O(n log n) time. Ejercicio de creatividad capitulo4.35()
      */
     public static boolean disjoint3(int[] set1 , int[] set2, int[] set3){
-        Arrays.sort(set1);
+        Arrays.sort(set1);//nlog(n)
         Arrays.sort(set2);
         Arrays.sort(set3);
 
