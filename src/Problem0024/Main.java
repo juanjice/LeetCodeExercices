@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args){
         ListNode problem= ListNode.of(1,2,3,4,5,6,7);
         System.out.println(problem);
-        ListNode result = Try1.swapPairs(problem);
+        ListNode result = Solution.swapPairs(problem);
         System.out.println(result);
     }
     public ListNode swapPairs(ListNode head) {
