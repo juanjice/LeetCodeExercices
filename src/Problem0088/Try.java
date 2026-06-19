@@ -29,6 +29,6 @@ public class Try {
                 nums2Pointer++;
             }
         }
-    System.out.println(Arrays.toString(nums1));
+
    }
 }
